@@ -1,15 +1,15 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace GameLibrary;
+namespace GameLibrary.Services;
 
-public class ApiService
+public class HttpService
 {
   private readonly HttpClient _httpClient;
   private string _apiKey;
   private string _steamId = "76561198063612372";
 
-  public ApiService()
+  public HttpService()
   {
     _apiKey = Environment.GetEnvironmentVariable("STEAM_API_KEY") ?? string.Empty;
     _httpClient = new HttpClient();
@@ -22,9 +22,22 @@ public class ApiService
 
     var json = await respone.Content.ReadAsStringAsync();
 
-    var result = JsonSerializer.Deserialize<SteamResult>(json);
+    var result = JsonSerializer.Deserialize<SteamResponse>(json);
 
-    return result?.Games ?? new();
+    return result?.Response.Games ?? new();
+  }
+
+
+  public async Task DownloadImageAsync(Game game)
+  {
+    var url = $"http://media.steampowered.com/steamcommunity/public/images/apps/{game.Id}/{game.IconHash}.jpg";
+
+    using var response = await _httpClient.GetAsync(url);
+    response.EnsureSuccessStatusCode();
+
+    await using var stream = await response.Content.ReadAsStreamAsync();
+    await using var fs = new FileStream(game.IconPath, FileMode.Create);
+    await stream.CopyToAsync(fs);
   }
 }
 

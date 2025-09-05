@@ -1,15 +1,17 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 
-namespace GameLibrary;
+namespace GameLibrary.Services;
 
 public class DatabaseService
 {
-    private readonly ApiService _apiService;
+    private readonly HttpService _httpService;
+    private readonly SteamService _steamService;
 
     public DatabaseService()
     {
-        _apiService = new();
+        _httpService = new();
+        _steamService = new();
     }
 
     public async Task SetUpDatabase()
@@ -17,16 +19,18 @@ public class DatabaseService
         using var db = new AppData();
         db.Database.EnsureCreated();
 
-        try
-        {
-            await UpdateDatabase(db);
-        }
-        catch { }
+        await UpdateDatabase(db);
+
     }
 
     private async Task UpdateDatabase(AppData db)
     {
-        var latestData = await _apiService.GetGamesAsync();
+        var latestData = await _httpService.GetGamesAsync();
+
+        if (latestData.Count <= 0)
+        {
+            return;
+        }
 
         foreach (var game in latestData)
         {
@@ -34,11 +38,14 @@ public class DatabaseService
 
             if (g == null)
             {
+                await _httpService.DownloadImageAsync(game);
+                game.IsInstalled = _steamService.IsGameInstalled(game.Id);
                 await db.AddAsync(game);
             }
             else
             {
                 g.PlayTime = game.PlayTime;
+                g.IsInstalled = _steamService.IsGameInstalled(g.Id);
             }
         }
 

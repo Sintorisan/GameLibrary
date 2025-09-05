@@ -4,7 +4,7 @@ namespace GameLibrary;
 
 public class Game
 {
-  [JsonPropertyName("appId")]
+  [JsonPropertyName("appid")]
   public int Id { get; set; }
 
   [JsonPropertyName("name")]
@@ -15,10 +15,10 @@ public class Game
 
   [JsonPropertyName("img_icon_url")]
   public string IconHash { get; set; } = string.Empty;
-
-  public bool isFavorit { get; set; }
+  public bool IsInstalled { get; set; }
+  public bool IsFavorit { get; set; }
   public DateTime LastPlayed { get; set; }
-  public string IconUrl => string.IsNullOrEmpty(IconHash)
+  public string IconPath => string.IsNullOrEmpty(IconHash)
     ? string.Empty
-    : $"http://media.steampowered.com/steamcommunity/public/images/apps/{Id}/{IconHash}.jpg";
+    : $"Client/Icons/{Name}.jpg";
 }
