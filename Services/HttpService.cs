@@ -7,7 +7,6 @@ public class HttpService
 {
   private readonly HttpClient _httpClient;
   private string _apiKey;
-  private string _steamId = "76561198063612372";
 
   public HttpService()
   {
@@ -15,9 +14,9 @@ public class HttpService
     _httpClient = new HttpClient();
   }
 
-  public async Task<List<Game>> GetGamesAsync()
+  public async Task<List<Game>> GetGamesAsync(string steamId)
   {
-    var respone = await _httpClient.GetAsync($"http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={_apiKey}&steamid={_steamId}&include_appinfo=true&include_played_free_games=true&format=json");
+    var respone = await _httpClient.GetAsync($"http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={_apiKey}&steamid={steamId}&include_appinfo=true&include_played_free_games=true&format=json");
     respone.EnsureSuccessStatusCode();
 
     var json = await respone.Content.ReadAsStringAsync();

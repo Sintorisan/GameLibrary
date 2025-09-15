@@ -12,12 +12,12 @@
     <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.8" />
+    <PackageReference Include="VdfParser" Version="1.1.0" />
   </ItemGroup>
 
 <ItemGroup>
-  <Content Include="Client\styles.css">
-    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-  </Content>
+  <Content Include="Client\styles.css" CopyToOutputDirectory="Always" />
+  <Content Include="Client\Icons\**\*.*" CopyToOutputDirectory="PreserveNewest" />
 </ItemGroup>
 
 </Project>

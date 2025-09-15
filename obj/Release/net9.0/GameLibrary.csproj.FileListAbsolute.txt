@@ -1,0 +1,115 @@
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\7 Days to Die.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Ale & Tale Tavern
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Ale & Tale Tavern.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Aseprite.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Backrooms
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Call of Duty®.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Chained Together.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\DCS World Steam Edition.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Football Manager 2012.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Garten of Banban.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Grand Theft Auto V Enhanced.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Grand Theft Auto V Legacy.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Grounded.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Hell Let Loose.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\HELLDIVERS™ 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Kill It With Fire 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Left 4 Dead 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Lethal Company.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Medieval Dynasty.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\No Time to Relax.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\One Finger Death Punch 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Palworld.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\PAYDAY 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Phasmophobia.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Project Zomboid.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Raft.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Ready or Not.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Red Dead Redemption 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Satisfactory.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Schedule I.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Sea of Thieves.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Sons Of The Forest.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Space Engineers.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Stardew Valley.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Stumble Guys.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Team Fortress 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\THE FINALS.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\The Headliners.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Tiny Glade.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Valheim.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Voidtrain.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\War Thunder.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\Warhammer 40,000
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\Icons\World War Z.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.exe
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Client\styles.css
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.deps.json
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.runtimeconfig.json
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.pdb
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\cairo-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\freetype2-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Gdk-4.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GdkPixbuf-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Gio-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GLib-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GObject-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Graphene-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Gsk-4.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Gtk-4.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\HarfBuzz-0.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Pango-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\PangoCairo-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Data.Sqlite.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\SQLitePCLRaw.core.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\VdfParser.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.csproj.AssemblyReference.cache
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.AssemblyInfoInputs.cache
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.AssemblyInfo.cs
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.sourcelink.json
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibr.D5A65543.Up2Date
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.dll
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\refint\GameLibrary.dll
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.pdb
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\GameLibrary.genruntimeconfig.cache
+C:\Users\sindr\ws\private\GameLibrary\obj\Release\net9.0\ref\GameLibrary.dll

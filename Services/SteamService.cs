@@ -1,4 +1,7 @@
 using System.Diagnostics;
+using VdfParser;
+using VdfParser.Models;
+
 
 namespace GameLibrary.Services;
 
@@ -10,37 +13,27 @@ public class SteamService
   {
     // Step 1: Find all library folders
     var libraryFile = Path.Combine(_steamPath, "steamapps", "libraryfolders.vdf");
-    if (!File.Exists(libraryFile)) return false;
+    if (!File.Exists(libraryFile))
+    {
+      return false;
+    }
 
-    var libraryPaths = ParseLibraryFolders(libraryFile);
+    var libraries = new VdfFileParser().ParseLibraryData(libraryFile);
 
     // Step 2: Look for manifest in each library
-    foreach (var library in libraryPaths)
+
+    foreach (var library in libraries)
     {
-      var manifest = Path.Combine(library, "steamapps", $"appmanifest_{appId}.acf");
+      var manifest = Path.Combine(library.Path, "steamapps", $"appmanifest_{appId}.acf");
       if (File.Exists(manifest))
+      {
         return true;
+      }
     }
 
     return false;
   }
 
-  private List<string> ParseLibraryFolders(string vdfPath)
-  {
-    var lines = File.ReadAllLines(vdfPath);
-    var paths = new List<string>();
-
-    foreach (var line in lines)
-    {
-      if (line.Contains(":\\\\"))
-      {
-        var path = line.Split('"')[3].Replace(@"\\", @"\");
-        paths.Add(path);
-      }
-    }
-
-    return paths;
-  }
   public void EnsureSteamRunning()
   {
     if (!IsSteamRunning())
@@ -72,4 +65,17 @@ public class SteamService
 
     Process.Start(psi);
   }
+
+  public SteamUser GetSteamUser()
+  {
+    EnsureSteamRunning();
+
+    var userFiles = Path.Combine(_steamPath, "config", "loginusers.vdf");
+
+    var users = new VdfFileParser().ParseUserData(userFiles);
+    var mostRecentUser = users.FirstOrDefault(u => u.MostRecent == true);
+
+    return mostRecentUser ?? new SteamUser();
+  }
 }
+

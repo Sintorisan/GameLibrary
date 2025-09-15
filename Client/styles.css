@@ -97,9 +97,6 @@ headerbar label {
   min-width: 12px;
 }
 
-/* To hide arrow completely, uncomment this: */
-/*
-.section-header > box > arrow {
-  opacity: 0;
+.fav-button {
+  box-shadow: none;
 }
-*/

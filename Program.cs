@@ -2,11 +2,11 @@
 using GameLibrary;
 using GameLibrary.Services;
 
-var dbService = new DatabaseService();
-await dbService.SetUpDatabase();
-
 var steamService = new SteamService();
-steamService.EnsureSteamRunning();
+var mostRecentUser = steamService.GetSteamUser();
+
+var dbService = new DatabaseService();
+await dbService.SetUpDatabase(mostRecentUser.SteamId);
 
 var app = Gtk.Application.New("com.gamelauncher", Gio.ApplicationFlags.FlagsNone);
 
@@ -22,7 +22,7 @@ app.OnActivate += (sender, args) =>
   );
 
   // Window setup
-  var window = new GameOverview();
+  var window = new GameOverview(mostRecentUser.PersonaName);
   window.Application = (Gtk.Application)sender;
   window.Show();
 };

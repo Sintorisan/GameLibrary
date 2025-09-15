@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GameLibrary</id>
+    <version>1.0.0</version>
+    <authors>GameLibrary</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="1c2f7a6ba556fce58ba13ed5cf2263e62290d6fa" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="GirCore.Gtk-4.0" version="0.6.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="9.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="9.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="9.0.8" exclude="Build,Analyzers" />
+        <dependency id="VdfParser" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net9.0/Client/styles.css" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/7 Days to Die.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Ale &amp; Tale Tavern" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Ale &amp; Tale Tavern.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Aseprite.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Backrooms" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Call of Duty®.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Chained Together.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/DCS World Steam Edition.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Football Manager 2012.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Garten of Banban.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Grand Theft Auto V Enhanced.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Grand Theft Auto V Legacy.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Grounded.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Hell Let Loose.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/HELLDIVERS™ 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Kill It With Fire 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Left 4 Dead 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Lethal Company.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Medieval Dynasty.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/No Time to Relax.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/One Finger Death Punch 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Palworld.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/PAYDAY 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Phasmophobia.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Project Zomboid.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Raft.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Ready or Not.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Red Dead Redemption 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Satisfactory.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Schedule I.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Sea of Thieves.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Sons Of The Forest.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Space Engineers.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Stardew Valley.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Stumble Guys.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Team Fortress 2.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/THE FINALS.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/The Headliners.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Tiny Glade.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Valheim.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Voidtrain.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/War Thunder.jpg" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/Warhammer 40,000" buildAction="Content" />
+      <files include="any/net9.0/Client/Icons/World War Z.jpg" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.runtimeconfig.json" target="lib\net9.0\GameLibrary.runtimeconfig.json" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\bin\Release\net9.0\GameLibrary.dll" target="lib\net9.0\GameLibrary.dll" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\styles.css" target="content\Client\styles.css" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\styles.css" target="contentFiles\any\net9.0\Client\styles.css" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\7 Days to Die.jpg" target="content\Client\Icons\7 Days to Die.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\7 Days to Die.jpg" target="contentFiles\any\net9.0\Client\Icons\7 Days to Die.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Ale &amp; Tale Tavern" target="content\Client\Icons\Ale &amp; Tale Tavern" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Ale &amp; Tale Tavern" target="contentFiles\any\net9.0\Client\Icons\Ale &amp; Tale Tavern" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Ale &amp; Tale Tavern.jpg" target="content\Client\Icons\Ale &amp; Tale Tavern.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Ale &amp; Tale Tavern.jpg" target="contentFiles\any\net9.0\Client\Icons\Ale &amp; Tale Tavern.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Aseprite.jpg" target="content\Client\Icons\Aseprite.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Aseprite.jpg" target="contentFiles\any\net9.0\Client\Icons\Aseprite.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Backrooms" target="content\Client\Icons\Backrooms" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Backrooms" target="contentFiles\any\net9.0\Client\Icons\Backrooms" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Call of Duty®.jpg" target="content\Client\Icons\Call of Duty®.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Call of Duty®.jpg" target="contentFiles\any\net9.0\Client\Icons\Call of Duty®.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Chained Together.jpg" target="content\Client\Icons\Chained Together.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Chained Together.jpg" target="contentFiles\any\net9.0\Client\Icons\Chained Together.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\DCS World Steam Edition.jpg" target="content\Client\Icons\DCS World Steam Edition.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\DCS World Steam Edition.jpg" target="contentFiles\any\net9.0\Client\Icons\DCS World Steam Edition.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Football Manager 2012.jpg" target="content\Client\Icons\Football Manager 2012.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Football Manager 2012.jpg" target="contentFiles\any\net9.0\Client\Icons\Football Manager 2012.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Garten of Banban.jpg" target="content\Client\Icons\Garten of Banban.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Garten of Banban.jpg" target="contentFiles\any\net9.0\Client\Icons\Garten of Banban.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Grand Theft Auto V Enhanced.jpg" target="content\Client\Icons\Grand Theft Auto V Enhanced.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Grand Theft Auto V Enhanced.jpg" target="contentFiles\any\net9.0\Client\Icons\Grand Theft Auto V Enhanced.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Grand Theft Auto V Legacy.jpg" target="content\Client\Icons\Grand Theft Auto V Legacy.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Grand Theft Auto V Legacy.jpg" target="contentFiles\any\net9.0\Client\Icons\Grand Theft Auto V Legacy.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Grounded.jpg" target="content\Client\Icons\Grounded.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Grounded.jpg" target="contentFiles\any\net9.0\Client\Icons\Grounded.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Hell Let Loose.jpg" target="content\Client\Icons\Hell Let Loose.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Hell Let Loose.jpg" target="contentFiles\any\net9.0\Client\Icons\Hell Let Loose.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\HELLDIVERS™ 2.jpg" target="content\Client\Icons\HELLDIVERS™ 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\HELLDIVERS™ 2.jpg" target="contentFiles\any\net9.0\Client\Icons\HELLDIVERS™ 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Kill It With Fire 2.jpg" target="content\Client\Icons\Kill It With Fire 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Kill It With Fire 2.jpg" target="contentFiles\any\net9.0\Client\Icons\Kill It With Fire 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Left 4 Dead 2.jpg" target="content\Client\Icons\Left 4 Dead 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Left 4 Dead 2.jpg" target="contentFiles\any\net9.0\Client\Icons\Left 4 Dead 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Lethal Company.jpg" target="content\Client\Icons\Lethal Company.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Lethal Company.jpg" target="contentFiles\any\net9.0\Client\Icons\Lethal Company.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Medieval Dynasty.jpg" target="content\Client\Icons\Medieval Dynasty.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Medieval Dynasty.jpg" target="contentFiles\any\net9.0\Client\Icons\Medieval Dynasty.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\No Time to Relax.jpg" target="content\Client\Icons\No Time to Relax.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\No Time to Relax.jpg" target="contentFiles\any\net9.0\Client\Icons\No Time to Relax.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\One Finger Death Punch 2.jpg" target="content\Client\Icons\One Finger Death Punch 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\One Finger Death Punch 2.jpg" target="contentFiles\any\net9.0\Client\Icons\One Finger Death Punch 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Palworld.jpg" target="content\Client\Icons\Palworld.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Palworld.jpg" target="contentFiles\any\net9.0\Client\Icons\Palworld.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\PAYDAY 2.jpg" target="content\Client\Icons\PAYDAY 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\PAYDAY 2.jpg" target="contentFiles\any\net9.0\Client\Icons\PAYDAY 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Phasmophobia.jpg" target="content\Client\Icons\Phasmophobia.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Phasmophobia.jpg" target="contentFiles\any\net9.0\Client\Icons\Phasmophobia.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Project Zomboid.jpg" target="content\Client\Icons\Project Zomboid.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Project Zomboid.jpg" target="contentFiles\any\net9.0\Client\Icons\Project Zomboid.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Raft.jpg" target="content\Client\Icons\Raft.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Raft.jpg" target="contentFiles\any\net9.0\Client\Icons\Raft.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Ready or Not.jpg" target="content\Client\Icons\Ready or Not.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Ready or Not.jpg" target="contentFiles\any\net9.0\Client\Icons\Ready or Not.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Red Dead Redemption 2.jpg" target="content\Client\Icons\Red Dead Redemption 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Red Dead Redemption 2.jpg" target="contentFiles\any\net9.0\Client\Icons\Red Dead Redemption 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Satisfactory.jpg" target="content\Client\Icons\Satisfactory.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Satisfactory.jpg" target="contentFiles\any\net9.0\Client\Icons\Satisfactory.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Schedule I.jpg" target="content\Client\Icons\Schedule I.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Schedule I.jpg" target="contentFiles\any\net9.0\Client\Icons\Schedule I.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Sea of Thieves.jpg" target="content\Client\Icons\Sea of Thieves.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Sea of Thieves.jpg" target="contentFiles\any\net9.0\Client\Icons\Sea of Thieves.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Sons Of The Forest.jpg" target="content\Client\Icons\Sons Of The Forest.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Sons Of The Forest.jpg" target="contentFiles\any\net9.0\Client\Icons\Sons Of The Forest.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Space Engineers.jpg" target="content\Client\Icons\Space Engineers.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Space Engineers.jpg" target="contentFiles\any\net9.0\Client\Icons\Space Engineers.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Stardew Valley.jpg" target="content\Client\Icons\Stardew Valley.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Stardew Valley.jpg" target="contentFiles\any\net9.0\Client\Icons\Stardew Valley.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Stumble Guys.jpg" target="content\Client\Icons\Stumble Guys.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Stumble Guys.jpg" target="contentFiles\any\net9.0\Client\Icons\Stumble Guys.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Team Fortress 2.jpg" target="content\Client\Icons\Team Fortress 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Team Fortress 2.jpg" target="contentFiles\any\net9.0\Client\Icons\Team Fortress 2.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\THE FINALS.jpg" target="content\Client\Icons\THE FINALS.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\THE FINALS.jpg" target="contentFiles\any\net9.0\Client\Icons\THE FINALS.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\The Headliners.jpg" target="content\Client\Icons\The Headliners.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\The Headliners.jpg" target="contentFiles\any\net9.0\Client\Icons\The Headliners.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Tiny Glade.jpg" target="content\Client\Icons\Tiny Glade.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Tiny Glade.jpg" target="contentFiles\any\net9.0\Client\Icons\Tiny Glade.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Valheim.jpg" target="content\Client\Icons\Valheim.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Valheim.jpg" target="contentFiles\any\net9.0\Client\Icons\Valheim.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Voidtrain.jpg" target="content\Client\Icons\Voidtrain.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Voidtrain.jpg" target="contentFiles\any\net9.0\Client\Icons\Voidtrain.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\War Thunder.jpg" target="content\Client\Icons\War Thunder.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\War Thunder.jpg" target="contentFiles\any\net9.0\Client\Icons\War Thunder.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Warhammer 40,000" target="content\Client\Icons\Warhammer 40,000" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\Warhammer 40,000" target="contentFiles\any\net9.0\Client\Icons\Warhammer 40,000" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\World War Z.jpg" target="content\Client\Icons\World War Z.jpg" />
+    <file src="C:\Users\sindr\ws\private\GameLibrary\Client\Icons\World War Z.jpg" target="contentFiles\any\net9.0\Client\Icons\World War Z.jpg" />
+  </files>
+</package>

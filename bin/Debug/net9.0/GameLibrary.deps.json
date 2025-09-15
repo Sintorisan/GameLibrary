@@ -11,7 +11,8 @@
           "GirCore.Gtk-4.0": "0.6.3",
           "Microsoft.Data.Sqlite": "9.0.8",
           "Microsoft.EntityFrameworkCore": "9.0.8",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.8"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.8",
+          "VdfParser": "1.1.0"
         },
         "runtime": {
           "GameLibrary.dll": {}
@@ -507,7 +508,15 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Text.Json/9.0.8": {}
+      "System.Text.Json/9.0.8": {},
+      "VdfParser/1.1.0": {
+        "runtime": {
+          "lib/net9.0/VdfParser.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -774,6 +783,13 @@
       "sha512": "sha512-mIQir9jBqk0V7X0Nw5hzPJZC8DuGdf+2DS3jAVsr6rq5+/VyH5rza0XGcONJUWBrZ+G6BCwNyjWYd9lncBu48A==",
       "path": "system.text.json/9.0.8",
       "hashPath": "system.text.json.9.0.8.nupkg.sha512"
+    },
+    "VdfParser/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GX3eQqA+Pui3RulFVT+hPgCflTJ4CmvDvVbD8iC2WbgkrzCNJv2FejDvroP0CSf8BPVuX51nnmW4PtRH471hgg==",
+      "path": "vdfparser/1.1.0",
+      "hashPath": "vdfparser.1.1.0.nupkg.sha512"
     }
   }
 }

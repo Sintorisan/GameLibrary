@@ -644,6 +644,19 @@
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
+      },
+      "VdfParser/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/VdfParser.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/VdfParser.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -1494,6 +1507,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "VdfParser/1.1.0": {
+      "sha512": "GX3eQqA+Pui3RulFVT+hPgCflTJ4CmvDvVbD8iC2WbgkrzCNJv2FejDvroP0CSf8BPVuX51nnmW4PtRH471hgg==",
+      "type": "package",
+      "path": "vdfparser/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net9.0/VdfParser.dll",
+        "lib/net9.0/VdfParser.xml",
+        "vdfparser.1.1.0.nupkg.sha512",
+        "vdfparser.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1501,7 +1526,8 @@
       "GirCore.Gtk-4.0 >= 0.6.3",
       "Microsoft.Data.Sqlite >= 9.0.8",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.8"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.8",
+      "VdfParser >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -1531,6 +1557,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\sindr\\ws\\nuget\\pkg": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1570,6 +1597,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[9.0.8, )"
+          },
+          "VdfParser": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         },
         "imports": [
@@ -1588,7 +1619,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

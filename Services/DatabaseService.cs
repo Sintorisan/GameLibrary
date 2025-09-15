@@ -14,18 +14,18 @@ public class DatabaseService
         _steamService = new();
     }
 
-    public async Task SetUpDatabase()
+    public async Task SetUpDatabase(string steamid)
     {
         using var db = new AppData();
         db.Database.EnsureCreated();
 
-        await UpdateDatabase(db);
+        await UpdateDatabase(db, steamid);
 
     }
 
-    private async Task UpdateDatabase(AppData db)
+    private async Task UpdateDatabase(AppData db, string steamid)
     {
-        var latestData = await _httpService.GetGamesAsync();
+        var latestData = await _httpService.GetGamesAsync(steamid);
 
         if (latestData.Count <= 0)
         {
@@ -34,8 +34,16 @@ public class DatabaseService
 
         foreach (var game in latestData)
         {
-            var g = await db.Games.FirstOrDefaultAsync(g => g.Id == game.Id);
+            if (db.Games.Count() <= 0)
+            {
+                await _httpService.DownloadImageAsync(game);
+                game.IsInstalled = _steamService.IsGameInstalled(game.Id);
+                await db.AddAsync(game);
+                await db.SaveChangesAsync();
+                continue;
+            }
 
+            var g = await db.Games.FirstOrDefaultAsync(g => g.Id == game.Id) ?? null;
             if (g == null)
             {
                 await _httpService.DownloadImageAsync(game);

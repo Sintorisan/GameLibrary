@@ -1,15 +1,15 @@
-﻿
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-
-namespace GameLibrary.Repositories;
+﻿namespace GameLibrary.Repositories;
 
 public class GameRepository
 {
   public List<Game> GetCompleteGameList()
   {
     using var db = new AppData();
-    var games = db.Games.OrderBy(g => g.Name).ToList();
+    var games = db.Games
+    .OrderBy(g => !g.IsInstalled)
+    .ThenByDescending(g => g.LastPlayed)
+    .ThenBy(g => g.Name)
+    .ToList();
 
     return games;
   }
@@ -17,7 +17,11 @@ public class GameRepository
   public List<Game> GetFavoritesGameList()
   {
     using var db = new AppData();
-    var games = db.Games.Where(g => g.IsFavorit == true).OrderBy(g => g.LastPlayed).ToList();
+    var games = db.Games
+    .Where(g => g.IsFavorit == true)
+    .OrderBy(g => g.LastPlayed)
+    .ThenBy(g => g.IsInstalled)
+    .ToList();
 
     return games;
   }
@@ -26,6 +30,11 @@ public class GameRepository
   {
     using var db = new AppData();
     var game = db.Games.FirstOrDefault(g => g.Id == id);
+
+    if (game == null || game.IsInstalled == false)
+    {
+      return;
+    }
 
     game.LastPlayed = DateTime.UtcNow;
     db.SaveChanges();
@@ -36,7 +45,17 @@ public class GameRepository
     using var db = new AppData();
     var game = db.Games.FirstOrDefault(g => g.Id == id);
 
+    if (game == null)
+    {
+      return;
+    }
+
     game.IsFavorit = !game.IsFavorit;
     db.SaveChanges();
+  }
+
+  internal List<Game> GetLastWeekGameList()
+  {
+    throw new NotImplementedException();
   }
 }
