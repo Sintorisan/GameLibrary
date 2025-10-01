@@ -7,7 +7,6 @@ public class GameRepository
     using var db = new AppData();
     var games = db.Games
     .OrderBy(g => !g.IsInstalled)
-    .ThenByDescending(g => g.LastPlayed)
     .ThenBy(g => g.Name)
     .ToList();
 
@@ -21,6 +20,18 @@ public class GameRepository
     .Where(g => g.IsFavorit == true)
     .OrderBy(g => g.LastPlayed)
     .ThenBy(g => g.IsInstalled)
+    .ToList();
+
+    return games;
+  }
+
+  public List<Game> GetRecentlyGameList()
+  {
+    using var db = new AppData();
+    var games = db.Games
+    .OrderByDescending(g => g.LastPlayed)
+    .ThenBy(g => !g.IsInstalled)
+    .Take(3)
     .ToList();
 
     return games;
@@ -54,8 +65,4 @@ public class GameRepository
     db.SaveChanges();
   }
 
-  internal List<Game> GetLastWeekGameList()
-  {
-    throw new NotImplementedException();
-  }
 }

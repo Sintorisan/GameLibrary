@@ -1,36 +1,78 @@
-.game-name {
-  font-size: 16px;
-  font-weight: bold;
-  color: #e5e5e5;
-}
+:root {
+  --bg-main: #2e3440;
+  --bg-header: #3b4252;
+  --bg-header-hover: #434c5e;
+  --bg-header-active: #4c566a;
+  --bg-card: #353c4a;
+  --bg-button: #434c5e;
+  --bg-button-hover: #4c566a;
 
-.game-time {
-  font-size: 12px;
-  color: #8f98a0;
-}
+  --text-primary: #eceff4;
+  --text-secondary: #d8dee9;
+  --text-bright: #ffffff;
+  --accent: #88c0d0;
+  --divider: #434c5e;
 
-button {
-  background: #1b1b1b; /* dark grey like Steam */
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid #2c2c2c;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-  margin-top: 4px;
-  padding: 6px 10px; /* top/bottom, left/right */
-  min-height: 48px;
-  color: #ccc; /* text color */
-}
-
-button:hover {
-  background: #2a2a2a;
-}
-
-button:active {
-  background: #3a3a3a;
+  --font-main: "Cantarell", "Segoe UI", sans-serif;
+  --font-title: "Segoe UI Bold", "Cantarell Bold", sans-serif;
+  --font-mono: "Consolas", monospace;
 }
 
 window {
-  background: #171a21; /* Steam’s dark blue-grey */
+  background: var(--bg-main);
+  font-family: var(--font-main);
+}
+
+headerbar {
+  min-height: 28px;
+  padding: 0 6px;
+  background: var(--bg-main);
+  color: var(--text-primary);
+}
+
+headerbar button {
+  min-height: 15px;
+  min-width: 15px;
+  padding: 2px 4px;
+}
+
+headerbar label {
+  font-family: var(--font-title);
+  font-size: 13px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.game-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.game-time {
+  font-family: var(--font-main);
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+button {
+  background: var(--bg-header);
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--divider);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  margin-top: 4px;
+  padding: 6px 10px;
+  min-height: 48px;
+  color: var(--text-primary);
+}
+
+button:hover {
+  background: var(--bg-header-hover);
+}
+
+button:active {
+  background: var(--bg-header-active);
 }
 
 image {
@@ -41,62 +83,61 @@ button:hover image {
   transform: scale(1.1);
 }
 
-headerbar {
-  min-height: 28px; /* default is ~40–45px */
-  padding: 0 6px; /* shrink padding inside */
-  background: #171a21; /* Steam dark background */
-  color: #e5e5e5;
-}
-
-headerbar button {
-  min-height: 15px;
-  min-width: 15px;
-  padding: 2px 4px;
-}
-
-headerbar label {
-  font-size: 13px;
-  font-weight: bold;
-  color: #e5e5e5;
-}
-
-.section-header {
-  margin-top: 0;
-}
-
-/* Expander section header */
 .section-header > box {
-  background: #1b1f27; /* darker block */
-  padding: 5px 0px;
-  border-bottom: 1px solid #2f343d; /* crisp divider */
+  background: var(--bg-header-hover);
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--divider);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2px;
 }
 
-/* Label inside header */
+.section-header:checked > box {
+  background: var(--bg-header);
+  border-bottom: 1px solid var(--accent);
+}
+
 .section-header > box > title > label {
   font-size: 14px;
   font-weight: bold;
-  color: #e6e6e6; /* brighter */
+  color: var(--text-bright);
 }
 
-/* Hover effect */
-.section-header > box:hover {
-  background: #222831;
-}
-
-/* Expanded state */
-.section-header:checked > box {
-  background: #1f2a38; /* subtle bluish tint */
-  border-bottom: 1px solid #66c0f4; /* Steam blue underline */
-}
-
-/* Arrow (optional) */
 .section-header > box > arrow {
-  color: #66c0f4; /* blue if kept */
-  opacity: 0.6; /* dim it down */
+  color: var(--accent);
+  opacity: 0.6;
   margin-right: 6px;
   min-width: 12px;
 }
 
-.fav-button {
-  box-shadow: none;
+.game-row > box {
+  background: var(--bg-header);
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--divider);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  margin-top: 4px;
+}
+
+.game-row > box:hover {
+  background: var(--bg-header-hover);
+}
+
+.options-box {
+  font-family: var(--font-mono);
+  background: var(--bg-card);
+  padding: 10px 15px;
+  margin: 0;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.option-button {
+  min-height: 28px;
+  background: var(--bg-button);
+  color: var(--text-bright);
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+.option-button:hover {
+  background: var(--bg-button-hover);
 }

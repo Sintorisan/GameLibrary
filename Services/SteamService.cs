@@ -66,6 +66,28 @@ public class SteamService
     Process.Start(psi);
   }
 
+  public void InstallGame(int id)
+  {
+    var psi = new ProcessStartInfo
+    {
+      FileName = $"steam://install/{id}",
+      UseShellExecute = true
+    };
+
+    Process.Start(psi);
+  }
+
+  public void UninstallGame(int id)
+  {
+    var psi = new ProcessStartInfo
+    {
+      FileName = $"steam://uninstall/{id}",
+      UseShellExecute = true
+    };
+
+    Process.Start(psi);
+  }
+
   public SteamUser GetSteamUser()
   {
     EnsureSteamRunning();

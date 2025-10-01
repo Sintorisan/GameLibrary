@@ -31,10 +31,10 @@ public class GameList : Box
   private readonly GameRepository _gameRepository = new();
   private readonly SteamService _steamService = new();
   private List<Game> _favGames = new();
-  private List<Game> _lastWeekGames = new();
+  private List<Game> _recentlyGames = new();
   private List<Game> _allGames = new();
   private Expander _favGamesExpander;
-  private Expander _lastWeekExpander;
+  private Expander _recentlyExpander;
   private Expander _allGamesExpander;
 
   public GameList() : base()
@@ -49,18 +49,18 @@ public class GameList : Box
     _favGamesExpander.AddCssClass("section-header");
     _favGamesExpander.SetChild(BuildGameList(_favGames));
 
-    _lastWeekExpander = Expander.New("Last Week Play");
-    _lastWeekExpander.SetExpanded(true);
-    _lastWeekExpander.AddCssClass("section-header");
-    _lastWeekExpander.SetChild(BuildGameList(_lastWeekGames));
+    _recentlyExpander = Expander.New("Recently Played");
+    _recentlyExpander.SetExpanded(true);
+    _recentlyExpander.AddCssClass("section-header");
+    _recentlyExpander.SetChild(BuildGameList(_recentlyGames));
 
     _allGamesExpander = Expander.New("All Games");
-    _allGamesExpander.SetExpanded(true);
+    _allGamesExpander.SetExpanded(false);
     _allGamesExpander.AddCssClass("section-header");
     _allGamesExpander.SetChild(BuildGameList(_allGames));
 
     Append(_favGamesExpander);
-    Append(_lastWeekExpander);
+    Append(_recentlyExpander);
     Append(_allGamesExpander);
   }
 
@@ -82,66 +82,110 @@ public class GameList : Box
       nameLabel.SetXalign(0f);
       nameLabel.AddCssClass("game-name");
 
-      var timeBox = Box.New(Orientation.Vertical, 2);
-
-      var lastPlayedLable = Label.New(SetLastPlayed(game.LastPlayed));
-      lastPlayedLable.SetXalign(0f);
-      lastPlayedLable.AddCssClass("game-time");
-
       var playedLabel = Label.New(SetPlayedTime(game.PlayTime));
       playedLabel.SetXalign(0f);
       playedLabel.AddCssClass("game-time");
 
-      timeBox.Append(playedLabel);
-      timeBox.Append(lastPlayedLable);
+      var lastPlayedLabel = Label.New(SetLastPlayed(game.LastPlayed));
+      lastPlayedLabel.SetXalign(0f);
+      lastPlayedLabel.AddCssClass("game-time");
+      lastPlayedLabel.MarginBottom = 5;
 
       textBox.Append(nameLabel);
-      textBox.Append(timeBox);
+      textBox.Append(playedLabel);
+      textBox.Append(lastPlayedLabel);
 
       var installedLabel = Label.New(game.IsInstalled ? "✅" : "❌");
       installedLabel.MarginEnd = 12;
       installedLabel.Halign = Align.End;
-
-      // TODO: Figure out a better solution on how move games to favorite
-      // var favLabel = Label.New(game.IsFavorit ? "🥰" : "🥱");
-      // var favButton = Button.New();
-      // favButton.AddCssClass("fav-button");
-      // favButton.SetChild(favLabel);
-
-      // favButton.OnClicked += (sender, e) =>
-      // {
-      //   UpdateFavorites(game.Id);
-
-      // };
 
       var rowBox = Box.New(Orientation.Horizontal, 8);
       rowBox.Append(icon);
       rowBox.Append(textBox);
       rowBox.Append(installedLabel);
 
-      var button = Button.New();
-      button.SetChild(rowBox);
+      var gameExpander = Expander.New(null);
+      gameExpander.SetLabelWidget(rowBox);
+      gameExpander.AddCssClass("game-row");
+      gameExpander.SetChild(OptionsButtons(game));
 
-      button.OnClicked += (sender, e) =>
-      {
-        StartGame(game.Id);
-      };
-
-      box.Append(button);
+      box.Append(gameExpander);
     }
 
     return box;
+  }
+  private Box OptionsButtons(Game game)
+  {
+    var optionsBox = Box.New(Orientation.Horizontal, 12);
+    optionsBox.AddCssClass("options-box");
+
+    if (game.IsInstalled)
+    {
+      var launchBtn = Button.NewWithLabel("🚀 Launch");
+      launchBtn.AddCssClass("option-button");
+      launchBtn.Hexpand = true;
+      launchBtn.Halign = Align.Fill;
+      launchBtn.OnClicked += (sender, e) => StartGame(game.Id);
+      optionsBox.Append(launchBtn);
+
+      var uninstallBtn = Button.NewWithLabel("🗑️ Uninstall");
+      uninstallBtn.AddCssClass("option-button");
+      uninstallBtn.Hexpand = true;
+      uninstallBtn.Halign = Align.Fill;
+      uninstallBtn.OnClicked += (sender, e) => UninstallGame(game.Id);
+      optionsBox.Append(uninstallBtn);
+    }
+    else
+    {
+      var installBtn = Button.NewWithLabel("📥 Install");
+      installBtn.AddCssClass("option-button");
+      installBtn.Hexpand = true;
+      installBtn.Halign = Align.Fill;
+      installBtn.OnClicked += (sender, e) => InstallGame(game.Id);
+      optionsBox.Append(installBtn);
+
+    }
+
+    var favBtn = Button.NewWithLabel(game.IsFavorit ? "💔 Remove Fav" : "⭐ Add Fav");
+    favBtn.AddCssClass("option-button");
+    favBtn.Hexpand = true;
+    favBtn.Halign = Align.Fill;
+    favBtn.OnClicked += (sender, e) => UpdateFavorites(game.Id);
+    optionsBox.Append(favBtn);
+
+    return optionsBox;
+  }
+
+  private void StartGame(int id)
+  {
+    _gameRepository.UpdateLastPlayed(id);
+    _steamService.StartGame(id);
+    RefreshUI();
+  }
+
+  private void InstallGame(int id)
+  {
+    _steamService.InstallGame(id);
+    RefreshUI();
+  }
+
+  private void UninstallGame(int id)
+  {
+    _steamService.UninstallGame(id);
+    RefreshUI();
   }
 
   private void PopulateGameLists()
   {
     _allGames = _gameRepository.GetCompleteGameList();
 
-    _favGames = _allGames.Where(g => g.IsFavorit == true)
+    _favGames = _allGames
+      .Where(g => g.IsFavorit == true)
       .ToList();
 
-    _lastWeekGames = _allGames
-      .Where(g => g.LastPlayed > DateTime.UtcNow.AddDays(-7))
+    _recentlyGames = _allGames
+      .OrderByDescending(g => g.LastPlayed)
+      .Take(3)
       .ToList();
   }
 
@@ -158,13 +202,6 @@ public class GameList : Box
     return $"Play Time: {hours}h {minutes:D2}m";
   }
 
-  private void StartGame(int id)
-  {
-    _gameRepository.UpdateLastPlayed(id);
-    _steamService.StartGame(id);
-    RefreshUI();
-  }
-
   private void UpdateFavorites(int id)
   {
     _gameRepository.UpdateIsFavorite(id);
@@ -175,8 +212,10 @@ public class GameList : Box
   {
     _favGames = _gameRepository.GetFavoritesGameList();
     _allGames = _gameRepository.GetCompleteGameList();
+    _recentlyGames = _gameRepository.GetRecentlyGameList();
 
     _favGamesExpander.SetChild(BuildGameList(_favGames));
+    _recentlyExpander.SetChild(BuildGameList(_recentlyGames));
     _allGamesExpander.SetChild(BuildGameList(_allGames));
   }
 }
