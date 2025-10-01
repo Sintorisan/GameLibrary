@@ -1,0 +1,83 @@
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\styles.css
+C:\Users\sindr\ws\private\GameLibrary\publish\GameLibrary.exe
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\7 Days to Die.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Ale & Tale Tavern
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Ale & Tale Tavern.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Aseprite.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Backrooms
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Call of Duty®.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Chained Together.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\DCS World Steam Edition.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Football Manager 2012.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Garten of Banban.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Grand Theft Auto V Enhanced.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Grand Theft Auto V Legacy.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Grounded.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Hell Let Loose.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\HELLDIVERS™ 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Kill It With Fire 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Left 4 Dead 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Lethal Company.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Medieval Dynasty.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\No Time to Relax.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\One Finger Death Punch 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Palworld.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\PAYDAY 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Phasmophobia.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Project Zomboid.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Raft.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Ready or Not.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Red Dead Redemption 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Satisfactory.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Schedule I.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Sea of Thieves.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Sons Of The Forest.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Space Engineers.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Stardew Valley.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Stumble Guys.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Team Fortress 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\THE FINALS.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\The Headliners.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Tiny Glade.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Valheim.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Voidtrain.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\War Thunder.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\Warhammer 40,000
+C:\Users\sindr\ws\private\GameLibrary\publish\Client\Icons\World War Z.jpg
+C:\Users\sindr\ws\private\GameLibrary\publish\GameLibrary.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\GameLibrary.deps.json
+C:\Users\sindr\ws\private\GameLibrary\publish\GameLibrary.runtimeconfig.json
+C:\Users\sindr\ws\private\GameLibrary\publish\GameLibrary.pdb
+C:\Users\sindr\ws\private\GameLibrary\publish\cairo-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\freetype2-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Gdk-4.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\GdkPixbuf-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Gio-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\GLib-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\GObject-2.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Graphene-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Gsk-4.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Gtk-4.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\HarfBuzz-0.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Pango-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\PangoCairo-1.0.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Data.Sqlite.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Logging.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Options.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\SQLitePCLRaw.batteries_v2.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\SQLitePCLRaw.core.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\VdfParser.dll
+C:\Users\sindr\ws\private\GameLibrary\publish\e_sqlite3.dll

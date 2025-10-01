@@ -1,47 +1,3 @@
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\7 Days to Die.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Ale & Tale Tavern
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Ale & Tale Tavern.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Aseprite.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Backrooms
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Call of Duty®.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Chained Together.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\DCS World Steam Edition.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Football Manager 2012.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Garten of Banban.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Grand Theft Auto V Enhanced.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Grand Theft Auto V Legacy.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Grounded.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Hell Let Loose.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\HELLDIVERS™ 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Kill It With Fire 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Left 4 Dead 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Lethal Company.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Medieval Dynasty.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\No Time to Relax.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\One Finger Death Punch 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Palworld.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\PAYDAY 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Phasmophobia.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Project Zomboid.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Raft.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Ready or Not.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Red Dead Redemption 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Satisfactory.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Schedule I.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Sea of Thieves.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Sons Of The Forest.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Space Engineers.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Stardew Valley.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Stumble Guys.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Team Fortress 2.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\THE FINALS.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\The Headliners.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Tiny Glade.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Valheim.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Voidtrain.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\War Thunder.jpg
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Warhammer 40,000
-C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\World War Z.jpg
 C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\GameLibrary.exe
 C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\styles.css
 C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\GameLibrary.deps.json
@@ -113,3 +69,44 @@ C:\Users\sindr\ws\private\GameLibrary\obj\Debug\net9.0\refint\GameLibrary.dll
 C:\Users\sindr\ws\private\GameLibrary\obj\Debug\net9.0\GameLibrary.pdb
 C:\Users\sindr\ws\private\GameLibrary\obj\Debug\net9.0\GameLibrary.genruntimeconfig.cache
 C:\Users\sindr\ws\private\GameLibrary\obj\Debug\net9.0\ref\GameLibrary.dll
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\7 Days to Die.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Ale & Tale Tavern
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Ale & Tale Tavern.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Aseprite.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Backrooms
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Call of Duty®.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Chained Together.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Football Manager 2012.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Garten of Banban.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Grand Theft Auto V Enhanced.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Grand Theft Auto V Legacy.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Grounded.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Hell Let Loose.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\HELLDIVERS™ 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Kill It With Fire 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Left 4 Dead 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Lethal Company.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Medieval Dynasty.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\No Time to Relax.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\One Finger Death Punch 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Palworld.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\PAYDAY 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Phasmophobia.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Project Zomboid.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Raft.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Ready or Not.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Red Dead Redemption 2.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Satisfactory.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Schedule I.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Sea of Thieves.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Sons Of The Forest.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Space Engineers.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Stardew Valley.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Stumble Guys.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\The Headliners.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Tiny Glade.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Valheim.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Voidtrain.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\War Thunder.jpg
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\Warhammer 40,000
+C:\Users\sindr\ws\private\GameLibrary\bin\Debug\net9.0\Client\Icons\World War Z.jpg
