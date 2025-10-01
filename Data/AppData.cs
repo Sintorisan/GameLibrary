@@ -9,6 +9,19 @@ public class AppData : DbContext
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
-    optionsBuilder.UseSqlite("Data Source=app.db");
+    var dbPath = Path.Combine(GetAppDataPath("Data"), "app.db");
+    optionsBuilder.UseSqlite($"Data Source={dbPath}");
   }
+
+  public static string GetAppDataPath(string subfolder)
+  {
+    var baseDir = AppContext.BaseDirectory;
+    var path = Path.Combine(baseDir, "Client", subfolder);
+
+    if (!Directory.Exists(path))
+      Directory.CreateDirectory(path);
+
+    return path;
+  }
+
 }

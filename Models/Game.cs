@@ -20,5 +20,17 @@ public class Game
   public DateTime LastPlayed { get; set; }
   public string IconPath => string.IsNullOrEmpty(IconHash)
     ? string.Empty
-    : $"Client/Icons/{Name}.jpg";
+    : Path.Combine(GetAppDataPath("Icons"), $"{Name}.jpg");
+
+  public static string GetAppDataPath(string subfolder)
+  {
+    var baseDir = AppContext.BaseDirectory;
+    var path = Path.Combine(baseDir, "Client", subfolder);
+
+    if (!Directory.Exists(path))
+      Directory.CreateDirectory(path);
+
+    return path;
+  }
+
 }

@@ -16,7 +16,7 @@ app.OnActivate += (sender, args) =>
   cssProvider.LoadFromPath("Client/styles.css");
 
   Gtk.StyleContext.AddProviderForDisplay(
-      Gdk.Display.GetDefault(),
+      Gdk.Display.GetDefault()!,
       cssProvider,
       800
   );

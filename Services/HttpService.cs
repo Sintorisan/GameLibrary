@@ -31,6 +31,12 @@ public class HttpService
   {
     var url = $"http://media.steampowered.com/steamcommunity/public/images/apps/{game.Id}/{game.IconHash}.jpg";
 
+    var directory = Path.GetDirectoryName(game.IconPath);
+    if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+    {
+      Directory.CreateDirectory(directory);
+    }
+
     using var response = await _httpClient.GetAsync(url);
     response.EnsureSuccessStatusCode();
 
